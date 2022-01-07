@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tasbex{
+    margin-left: -100px;
+    width: 350px;
+    height: 350px;
+    background: #000;
+    border: 1px solid chocolate;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    border-radius: 20%;
+    
+}
+.ekran{
+    text-align: center;
+    font-size: 34px;
+    width: 55%;
+    position: absolute;
+    top: 10%;
+    left: 23%;
+    height: 50px;
+    background: #fff;
+    caret-color: white;
+    border-radius: 9%;
+    border: 3px solid floralwhite;
+    outline: none;
+}
+.btn{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 45px;
+    top: 62%;
+    left: 24%;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    border: 2px white solid;
+    background: gray;
+}
+.btn:hover{
+    background: #fff;
+    -webkit-box-shadow: 5px 4px 31px 20px rgba(246, 238, 235, 0.2);
+-moz-box-shadow: 5px 4px 31px 20px rgba(246, 238, 235, 0.2);
+box-shadow: 5px 4px 31px 20px rgba(246, 238, 235, 0.2);
+}
+.nol{
+    position: absolute;
+    top: 76%;
+    margin-top: 70px;
+    left: 21%;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    background: chocolate;
+    border:2px white solid
+}
+.nol:hover{
+    background-color: red;
+}
+#sub{
+    text-align: center;
+    font-size: 50px;
+    margin-left: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 60, 255);
+}
+.tasbeh{
+    justify-content: center;
+}
+
+@media (max-width: 500px){
+    .tasbex{
+        margin-top: 40px;
+        width: 250px;
+        height: 250px;
+        background: #000;
+        border: 1px solid chocolate;
+        position: absolute;
+        top: 10%;
+        left: 45%;
+        border-radius: 20%;
+        
+    }
+    .ekran{
+        text-align: center;
+        font-size: 34px;
+        width: 55%;
+        position: absolute;
+        top: 10%;
+        left: 23%;
+        height: 50px;
+        background: #fff;
+        caret-color: white;
+        border-radius: 9%;
+        border: 3px solid floralwhite;
+        outline: none;
+    }
+    .btn{
+        position: absolute;
+        margin-top: -80px;
+        margin-left: 45px;
+        top: 75%;
+        left: 20%;
+        width: 63px;
+        height: 63px;
+        border-radius: 50%;
+        border: 2px white solid;
+        background: gray;
+    }
+    .btn:hover{
+        background: #fff;
+        -webkit-box-shadow: 5px 4px 31px 20px rgba(246, 238, 235, 0.2);
+    -moz-box-shadow: 5px 4px 31px 20px rgba(246, 238, 235, 0.2);
+    box-shadow: 5px 4px 31px 20px rgba(246, 238, 235, 0.2);
+    }
+    .nol{
+        position: absolute;
+        top: 76%;
+        margin-top: 50px;
+        left: 21%;
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        background: chocolate;
+        border:2px white solid
+    }
+    .nol:hover{
+        background-color: red;
+    }
+    #sub{
+        text-align: center;
+        font-size: 50px;
+        margin-left: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color: rgb(0, 60, 255);
+    }
+    .tasbeh{
+        justify-content: center;
+    }
+}
